@@ -1,0 +1,87 @@
+.owl-nav{
+position: absolute;
+top:-90px;
+right: 10px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+   width: 40px;
+   height: 40px;
+   border: solid thin #ddd;
+   border-radius: 50%;
+   outline: none;
+   margin:5px;
+   font-size: 25px;
+}
+.owl-carousel h3,
+.box h3
+{
+    font-size:15px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    color:gray;
+    padding-top: 5px;
+}
+/*  start div .post*/
+.post{
+    height: 100px;
+    padding: 24px;
+    margin-bottom: 20px;
+    border: 1px solid #1111111F;
+}
+.post .next {
+    float: right;
+    text-align: right;
+    border-left: 1px solid #1111111F;
+}
+.post .next h6, .post .prev h6 {
+    font-size: 12px;
+}
+.post .next h5, .post .prev h5{
+    font-weight: bold;
+    font-size: medium;
+}
+.post .prev, .post .next {
+    width: 50%;}
+/*  end div post*/
+.constantOrange{
+    width: 150px;
+    height: 2px;
+    background-color: rgb(230, 115, 8) ;
+}
+/*start form*/
+.form{
+    background-color: rgb(187, 182, 182);
+}
+.form label{
+    text-transform: uppercase;
+    font-weight:600;
+    margin-top: 10px;
+}
+.form button{
+    text-transform: capitalize;
+    padding: 8px 10px;
+    background-color: rgb(31, 29, 29); 
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    outline: none;
+   }
+/* end form*/
+.Partner{
+    color: rgb(230, 115, 8);
+    line-height: 30px;
+}
+.item{
+    color: rgb(230, 115, 8);
+    text-decoration:underline;
+     text-transform: capitalize;
+     padding-left:15px;
+     display: inline-block;
+     line-height:40px;
+     cursor: pointer;   
+
+}
+.Partner{
+    color:rgb(230, 115, 8) ;
+    line-height:40px;
+}

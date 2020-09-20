@@ -1,0 +1,371 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('../image/bfastmag-background.jpg') no-repeat;
+    background-size:cover;
+   
+}
+/* start div top*/
+.top{
+    background-color: transparent;
+   min-height: 80px;
+   line-height: 80px;
+}
+.top .sep1{
+    background-color:rgb(230, 115, 8);
+    
+    
+}
+.top .sep2{
+ background-color: rgb(37, 38, 39);
+     
+}
+.top .sep1,
+.top .sep2{
+    color: #fff;
+    font-size:18px;
+    font-weight:500; 
+    
+}
+.top .sep2 i{
+   margin-right: 5px;
+}
+
+
+/* start div banner-area*/
+.banner-area{
+   
+    position: relative;
+   
+}
+.banner-area h2{
+position: absolute;
+top: 30px;
+left:30%;
+transform: translate(-50%,-50%);
+width: 100%;
+text-align: center;
+font-family: poppins;
+color: #fff;
+font-size:25px;
+}
+@media(max-width:1200px){
+    .banner-area{
+        height:50px;
+       background: none;  
+    } 
+    .banner-area h2{
+        left:20%;
+    } 
+}
+/*end banner-area*/
+/*end div top*/
+/* start top*/
+.logo{
+  background-color:rgb(250, 248, 248);
+  height: 150px;
+}
+.container-top img{
+padding-top:15px;
+}
+/*end top*/
+/*start navbar*/
+/*end navbar*/
+
+.navbar-expand-lg{
+    min-height: 150px;
+    color: #fff;
+    
+}
+
+.navbar-brand i{
+    color: #fff;
+    background-color: rgb(230, 115, 8);
+    padding: 5px;
+}
+.navbar-nav li.nav-item{
+    padding-left:20px;
+    
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+    text-transform: capitalize;
+    font-weight: bold;
+   
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(230, 115, 8);
+}
+.navbar .search{
+  color:#fff;  
+}
+@media (max-width:992px) {
+    .navbar .search{
+        display: none;
+    } 
+   
+}
+/*start  div jewellery*/
+.jewellery{
+    background-color: whitesmoke
+}
+.jewellery h1{
+    padding-top: 20px;
+    text-transform:uppercase;
+    color: red;
+    font-size: 20px;
+    font-weight: 500px;
+}
+ .parent{
+    display:-webkit-box;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.jewellery .orange{
+ width:250px;  
+ height:1.5px; 
+ background-color: rgb(230, 115, 8);
+}
+.jewellery .gray{
+    width:500px;
+    height:1.5px;
+    background-color:rgb(207, 200, 200);
+    
+}
+@media (max-width:1200px){
+    .jewellery .orange{
+        width:200px;
+    } 
+    .jewellery .gray{
+        width:400px;
+    }
+} 
+
+@media (max-width:992px) {
+    .jewellery .orange{
+        width: 100px;
+    } 
+    .jewellery .gray{
+        width: 250px;
+    }
+}
+@media (max-width:765px){
+    .jewellery .orange{
+        width:100px;
+    } 
+    .jewellery .gray{
+        width:200px;
+    }
+}
+
+.jewellery .Dipa h2{
+    text-transform: uppercase;
+    font-size:35px;
+    padding-top: 10px;
+    
+}
+.jewellery .Dipa p{
+    line-height:30px;  
+}
+.jewellery .new{
+ position: relative; 
+ width: 100%;
+ height: 100%;  
+ 
+}
+.jewellery .new .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+    background-color: rgba(253, 178, 107,.3);
+    display: none;
+    transition: all.5s ease-in-out;
+}
+
+.jewellery .new span{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 3px 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgb(230, 115, 8);
+    text-transform: uppercase;
+}
+.jewellery .new:hover .overlay{
+    display: block;
+}
+.jewellery .Dipa .contant-readind{
+    background-color: transparent;
+    border: 1px solid rgb(230, 115, 8);
+    text-transform: uppercase;
+    font-size:13px;
+    border-radius:5%;
+    padding:4px;
+    margin-top: 20px;
+    color: #000;
+}
+.jewellery .Dipa .contant-readind:hover{
+    background-color:rgb(230, 115, 8) ;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* start list number*/
+.jewellery .number{
+    margin-top:-20px;
+}
+.jewellery .number li{
+    display: inline-block; 
+    padding: 5px 15px; 
+    border: 1px solid #000;
+    font-size:20px;
+    margin-left: 3px;
+    
+  }
+/*end list number*/
+.jewellery .animation{
+    padding-top: 10px;
+   
+}
+
+.jewellery .animate a{
+    text-decoration: none; 
+  color: #000; 
+  font-size: 14px;
+}
+.jewellery .animate:first-of-type{
+    padding-top: 20px;
+}
+.jewellery ul .animate{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.jewellery .animate:hover{
+    
+    transform: translateX(20px);
+}
+.jewellery .animate:hover a{
+    color:rgb(230, 115, 8) ;
+}
+
+  .line-row{
+   margin:40px 0px;
+}
+.jewellery .posts{
+  text-transform: uppercase;
+  color:red;
+  font-size: 27px;
+  font-weight:bold;  
+}
+.jewellery .prowered{
+    font-weight: bold;
+}
+ .parent .orange2{
+  height: 1.5px;
+  width:80px;
+  background-color:rgb(230, 115, 8) ;  
+}
+ .parent .gray2{
+    height:1.5px;
+  width:170px;
+  background-color: rgb(207, 200, 200);
+
+}
+@media(max-width:1200px){
+    .parent .orange2{
+        height: 1.5px;
+        width:60px;
+        background-color:rgb(230, 115, 8) ;  
+      }
+       .parent .gray2{
+          height:1.5px;
+        width:150px;
+        background-color: rgb(207, 200, 200);
+      
+      } 
+}
+
+.jewellery .social-media img{
+    width:60px;
+    height:60px;
+    margin-left: 3px;
+   margin-top: 20px;
+    transition: all .5s ease-in-out;
+}
+.jewellery .social-media img:hover{
+    transform: translate(0px,-20px);
+}
+.jewellery .social-media1 img {
+    margin-top: 0px;
+}
+.jewellery .social-media:last-child{
+    margin-bottom: 20px;
+}
+/*end div jewellery*/
+/* start div bottom*/
+.bottom{
+ background-color: rgb(34, 33, 33);  
+ color: #fff; 
+ 
+}
+.bottom h2{
+ text-transform: uppercase;
+ padding-top:20px ;
+ 
+}
+.bottom .parent{
+    margin-top:0px;
+    margin-bottom:30px;
+}
+.bottom ul li{
+ text-transform:capitalize;
+ font-weight: bold;  
+ padding-top: 10px; 
+ cursor: pointer;
+}
+.bottom .categories,
+.bottom .meta
+{
+    margin-top:50px;
+    
+}
+.bottom .meta{
+    padding-bottom:80px;
+}
+.bottom .categories i{
+margin-right: 8px;
+}
+/*end div bottom*/
+/*start footer*/
+footer{
+background-color: rgb(65, 63, 63); 
+min-height:70px;  
+position: fixed;
+bottom: 0;
+text-align: center;
+width: 100%;
+font-size:18px;
+color: #fff;
+}
+footer span{
+    line-height: 70px;
+}
+footer button{
+ background-color:rgb(230, 115, 8) ;
+ border: 1px solid rgb(230, 115, 8);
+ border-radius:5px;
+ color: #fff;
+ margin-left: 10px;
+ padding: 3px 5px;
+}
+
+
+/*end footer*/
